@@ -1,0 +1,216 @@
+:root {
+  --primary-txt-color: #757575;
+  --secondary-txt-color: #212121;
+  --other-txt-color: #ffffff;
+  --hero-txt-color: #FFFFFF;
+  --footer-txt-color: rgba(255, 255, 255, 0.6);
+  --primary-bg-color: #F5F5F5;
+  --secondary-bg-color: #2F303A;
+  --other-bg-color: #F5F4FA;
+  --header-bg-color: #FFFFFF;
+  --primary-bg-btn: #2196F3;
+  --secondary-bg-btn: #188CE8;
+  --other-bg-btn:#F5F4FA;
+  --primary-bg-btnworks: #F5F4FA;
+  --secondary-bg-btnworks: #2196F3;
+  --primary-logo-color: #000000;
+  --secondary-logo-color: #2196F3;
+  --other-logo-color: #ffffff;
+  --primari-btn-text: #ffffff;
+  --secondary-btn-text: #212121;
+}
+/* global styles */
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--primary-txt-color);  
+  background-color: var(--primary-bg-color);
+  font-size: 14px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+/* cancellation dot */
+.lists {
+  list-style: none;
+}
+/* cancellation underline */
+.items {
+  text-decoration: none;
+}
+/* header color */
+.header {
+  background-color: var(--header-bg-color);
+}
+/* logo modificate */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  
+  color: var(--primary-logo-color);
+}
+
+.logo .logo-new {
+  color: var(--secondary-logo-color);
+}
+
+.logo .ftr-studio {
+  color: var(--other-logo-color);
+}
+/* header navigate */
+.nav-list .nav-item {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  
+  color: var(--secondary-txt-color);
+}
+
+.nav-list .nav-item:hover,
+.nav-list .nav-item:focus,
+.adrs-list .adrs-item:hover,
+.adrs-list .adrs-item:focus {
+  color: var(--secondary-logo-color);
+}
+
+.nav-contacts {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+/* hero section */
+.hero,
+.footer {
+  background-color: var(--secondary-bg-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;  
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  
+  color: var(--hero-txt-color);
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  
+  color: var(--primari-btn-text);
+  background-color: var(--primary-bg-btn);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--secondary-bg-btn);
+}
+/* main */
+/* 1st section */
+.hidden-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* 2d section */
+.adv-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  
+  color: var(--secondary-txt-color);
+}
+
+.adv-txt {
+  line-height: 1.7;
+}
+/* 3d section */
+.doing-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  
+  color: var(--secondary-txt-color);
+}
+/* 4 section */
+.team {
+  background-color: var(--other-bg-color);
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  
+  color: var(--secondary-txt-color);
+}
+
+.team-prof {
+  font-size: 16px;
+}
+/* footer */
+/* address modificate */
+.address-map {
+  line-height: 1.7;
+  font-style: normal;
+  
+  color: var(--other-txt-color);
+}
+
+.adrs-contacts {
+  line-height: 1.7;
+  font-style: normal;
+  
+  color: var(--footer-txt-color);
+}
+/* PORTFOLIO */
+/* our works */
+.works-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  
+  color: var(--secondary-btn-text);
+  background-color: var(--primary-bg-btnworks);
+}
+
+.works-btn:hover,
+.works-btn:focus {
+  color: var(--other-txt-color);
+  background-color: var(--secondary-bg-btnworks);
+}
+
+.work-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  
+  color: var(--secondary-txt-color);
+}
+
+.work-type {
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+/* Dont repeat:
+font-family: Roboto, sans-serif
+color text #757575
+bgc #F5F5F5
+font-size: 14px;
+font-style: normal
+font-weight: 400
+latter-spacing 0.03 */
